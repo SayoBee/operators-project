@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+</head>
+<body>
+    <h1 id="head" style="text-align: center;"></h1>
+    <h2 id="topic" style="text-align: center;"></h2>
+    <p id="list"></p>
+    <p id="first"></p>
+    <p id="first1"></p>
+    <p id="first2"></p>
+    <p id="result1"></p>
+    <p id="first3"></p>
+    <p id="second"></p>
+    <p id="second1"></p>
+    <p id="result2"></p>
+    <p id="third"></p>
+    <p id="third2"></p>
+    <p id="result3"></p>
+    <p id="fouth"></p>
+    <p id="fouth2"></p>
+    <p id="result4"></p>
+    <p id="fifth"></p>
+    <p id="fifth2"></p>
+    <p id="result5"></p>
+    <p id="sixth"></p>
+    <p id="sixth2"></p>
+    <p id="result6"></p>
+    <h2 style="text-align: center;" id="co"></h2>
+    <p id="greater"></p>
+    <p id="g1"></p>
+    <p id="gr"></p>
+    <p id="lessthan"></p>
+    <p id="lg1"></p>
+    <p id="lr"></p>
+    <p id="ee"></p>
+    <p id="ee1"></p>
+    <p id="eer"></p>
+    <p id="eee"></p>
+    <p id="eee1"></p>
+    <p id="eeer"></p>
+    <p id="gte"></p>
+    <p id="gte1"></p>
+    <p id="gter"></p>
+    <p id="lte"></p>
+    <p id="lte1"></p>
+    <p id="lter"></p>
+    <p id="ne"></p>
+    <p id="ne1"></p>
+    <p id="ner"></p>
+    <p id="nee"></p>
+    <p id="nee1"></p>
+    <p id="neer"></p>
+
+    
+    <script>
+        document.getElementById('head').innerHTML='JAVASCRIPT DAY3'
+        document.getElementById("topic").innerHTML='Arithetic Operators'
+        document.getElementById('list').innerHTML='There are six type of arithetic Operators'
+        document.getElementById('first').innerHTML='1- <b>Plus (+)</b>: This is use for adding values togerther. <br>Example'
+        document.getElementById('first1').innerHTML= 'let a=5;'
+        document.getElementById('first2').innerHTML='let b=7; <br> C=a+b; '
+        let a=5;
+        let b=7;
+        let c=a+b;
+        document.getElementById('result1').innerHTML='C='+ c
+        document.getElementById('second').innerHTML='2- <b>Subtraction (-)</b>: This is use for subtracting values. <br>Example'
+        document.getElementById('second1').innerHTML='let d=20;    <br> let e=10; <br> h=d-e;'
+        let d=20;
+        let e=10;
+        let h=d-e
+        document.getElementById('result2').innerHTML='h=' + h
+        document.getElementById('third').innerHTML='3- <b>Mutiplication (*)</b>: This is use for mutipling values togerther. <br>Example '
+        document.getElementById('third2').innerHTML='let h=44; <br>let i=30;<br> k=i*j; '
+        let i=44;
+        let j=30;
+        let k=i*j
+        document.getElementById('result3').innerHTML='k=' + k
+        document.getElementById('fouth').innerHTML='4- <b>Division (/)</b>: this isb use for dividing two values. <br>Ex'
+        document.getElementById('fouth2').innerHTML='let l=72; <br>let m=2; <br>n= l/m; '
+        let l=72;
+        let m=2;
+        let n=l/m;
+        document.getElementById('result4').innerHTML='n=' + n
+        document.getElementById('fifth').innerHTML='5- <b>Modulus (%)</b>: This is also known as <b>Remainder</b>, this is used for fining the remainder after dividing one number by another.<br>Example'
+        document.getElementById('fifth2').innerHTML='let o=10; <br>let p=3; <br> q= o % p; '
+        let o=10;
+        let p=3;
+        let q=o % p
+        document.getElementById('result5').innerHTML='q=' + q
+        document.getElementById('sixth').innerHTML='<b>Exponentiation (**)</b>: This is used to raise a number to the power o another number. '
+        document.getElementById('sixth2').innerHTML='let r=3; <br>let s=3; <br>let t=r**s; '
+        let r=3;
+        let s=3;
+        let t=r**s;
+        document.getElementById('result6').innerHTML='t =' + t
+        document.getElementById('co').innerHTML='<b> Comparism Operators</b>'
+        document.getElementById('greater').innerHTML='1- <b>Greater than (>)<b/> : It is use fo checking if the oprand is greate than th right oprand and retuns true it is,and false otherwise.<br>Examples '
+        document.getElementById('g1').innerHTML=('let u=5; <br>let v=2; <br> let w=u>v;')
+        let u=5;
+        let v=2;
+        let w= u>v;
+        document.getElementById('gr').innerHTML=('w=') +w
+        document.getElementById('lessthan').innerHTML='2- <b>Less Than</b>: The less than operator checks if the left oprand is less than the right operand and returns tru if it is, and false otherwise.<br> Example'
+        document.getElementById('lg1').innerHTML='let x=76; <br>let y=54; <br>let z=x<y; '
+        let x=76;
+        let y=54;
+        let z=x<y;
+        document.getElementById('lr').innerHTML=('z=') +z
+        document.getElementById('ee').innerHTML='3- <b>==</b>: The Equality operator compares two valuse for equality, ignoring the data types,it returns true if the values are equal and false otherwise.<br> Example'
+        document.getElementById('ee1').innerHTML='let ab=8; <br>let cd=8; <br>let ef=ab ==cd; '
+        let ab=8;
+        let cd=8;
+        let ef=ab==cd;
+        document.getElementById('eer').innerHTML=('ef=') +ef
+        document.getElementById('eee').innerHTML='4- <b>===</b>: it is used for comparing both the values and data types of the oprands,It returns true is both the values and types are the and false otherwise.<br> Example'
+        document.getElementById('eee1').innerHTML='let gh=8; <br>let ij="8"; <br>let kl=gh ===ij; '
+        let gh=8;
+        let ij='8';
+        let kl= gh===ij;
+        document.getElementById('eeer').innerHTML=('kl=') +kl
+        document.getElementById('gte').innerHTML='5- <b>>=</b>: It is used for checking if the left operand is greater than or equal to the right operand,it returns true if its, and false otherwise.<br> Example'
+        document.getElementById('gte1').innerHTML='let mn=45; <br>let op=38; <br>let qr=mn>=op; '
+        let mn=45;
+        let op=38;
+        let qr= mn>=op;
+        document.getElementById('gter').innerHTML=('qr=') +qr
+        document.getElementById('lte').innerHTML='6- <b><=</b>: It is used for checking if the left operand is lessthan or equal to the right operand,it returns true if its, and false otherwise.<br> Example'
+        document.getElementById('lte1').innerHTML='let st=45; <br>let uv=38; <br>let wx=st<=uv; '
+        let st=45;
+        let uv=38;
+        let wx= st<=uv;
+        document.getElementById('lter').innerHTML=('wx=') +wx
+        document.getElementById('ne').innerHTML='7- <b>!=</b>: it helps to check if two values are not epual and returns true if they are different,and false if the are equal.<br> Example'
+        document.getElementById('ne1').innerHTML='let yz=26; <br>let ac=26; <br>let da=yz!=ac; '
+        let yz=26;
+        let ac=26;
+        let da= yz!=ac;
+        document.getElementById('ner').innerHTML=('da=') +da
+        document.getElementById('nee').innerHTML='8- <b>!==</b>: it helps to check if two values are not epual and having diffent data type,it returns true if the value or data type are different,and false otherwise.<br> Example'
+        document.getElementById('nee1').innerHTML='let ba=26; <br>let ca="26"; <br>let ad=ba!==ac; '
+        let ba=26;
+        let ca="26";
+        let ad= ba!==ca;
+        document.getElementById('neer').innerHTML=('ab=') +ad
+
+
+
+</script>
+</body>
+</html>
